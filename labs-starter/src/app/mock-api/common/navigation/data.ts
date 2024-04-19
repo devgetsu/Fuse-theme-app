@@ -17,11 +17,47 @@ export const defaultNavigation: FuseNavigationItem[] = [
         link : '/academy'
     },
     {
-        id   : 'pricing',
-        title: 'Pricing',
-        type : 'basic',
-        icon : 'heroicons_outline:chart-pie',
-        link : '/pricing'
+        id      : 'pages',
+        title   : 'Pages',
+        subtitle: 'Custom made page designs',
+        type    : 'group',
+        icon    : 'heroicons_outline:document',
+        children: [
+
+            {
+                id      : 'pages.pricing',
+                title   : 'Pricing',
+                type    : 'collapsable',
+                icon    : 'heroicons_outline:banknotes',
+                children: [
+                    {
+                        id   : 'pages.pricing.modern',
+                        title: 'Modern',
+                        type : 'basic',
+                        link : '/pages/pricing/modern',
+                    },
+                    {
+                        id   : 'pages.pricing.simple',
+                        title: 'Simple',
+                        type : 'basic',
+                        link : '/pages/pricing/simple',
+                    },
+                    {
+                        id   : 'pages.pricing.single',
+                        title: 'Single',
+                        type : 'basic',
+                        link : '/pages/pricing/single',
+                    },
+                    {
+                        id   : 'pages.pricing.table',
+                        title: 'Table',
+                        type : 'basic',
+                        link : '/pages/pricing/table',
+                    },
+                ],
+            }
+            
+        ]
     }
 ];
 export const compactNavigation: FuseNavigationItem[] = [
@@ -40,11 +76,47 @@ export const compactNavigation: FuseNavigationItem[] = [
         link : '/academy'
     },
     {
-        id   : 'pricing',
-        title: 'Pricing',
-        type : 'basic',
-        icon : 'heroicons_outline:chart-pie',
-        link : '/pricing'
+        id      : 'pages',
+        title   : 'Pages',
+        subtitle: 'Custom made page designs',
+        type    : 'group',
+        icon    : 'heroicons_outline:document',
+        children: [
+
+            {
+                id      : 'pages.pricing',
+                title   : 'Pricing',
+                type    : 'collapsable',
+                icon    : 'heroicons_outline:banknotes',
+                children: [
+                    {
+                        id   : 'pages.pricing.modern',
+                        title: 'Modern',
+                        type : 'basic',
+                        link : '/pages/pricing/modern',
+                    },
+                    {
+                        id   : 'pages.pricing.simple',
+                        title: 'Simple',
+                        type : 'basic',
+                        link : '/pages/pricing/simple',
+                    },
+                    {
+                        id   : 'pages.pricing.single',
+                        title: 'Single',
+                        type : 'basic',
+                        link : '/pages/pricing/single',
+                    },
+                    {
+                        id   : 'pages.pricing.table',
+                        title: 'Table',
+                        type : 'basic',
+                        link : '/pages/pricing/table',
+                    },
+                ],
+            }
+            
+        ]
     }
 ];
 export const futuristicNavigation: FuseNavigationItem[] = [
@@ -63,11 +135,47 @@ export const futuristicNavigation: FuseNavigationItem[] = [
         link : '/academy'
     },
     {
-        id   : 'pricing',
-        title: 'Pricing',
-        type : 'basic',
-        icon : 'heroicons_outline:chart-pie',
-        link : '/pricing'
+        id      : 'pages',
+        title   : 'Pages',
+        subtitle: 'Custom made page designs',
+        type    : 'group',
+        icon    : 'heroicons_outline:document',
+        children: [
+
+            {
+                id      : 'pages.pricing',
+                title   : 'Pricing',
+                type    : 'collapsable',
+                icon    : 'heroicons_outline:banknotes',
+                children: [
+                    {
+                        id   : 'pages.pricing.modern',
+                        title: 'Modern',
+                        type : 'basic',
+                        link : '/pages/pricing/modern',
+                    },
+                    {
+                        id   : 'pages.pricing.simple',
+                        title: 'Simple',
+                        type : 'basic',
+                        link : '/pages/pricing/simple',
+                    },
+                    {
+                        id   : 'pages.pricing.single',
+                        title: 'Single',
+                        type : 'basic',
+                        link : '/pages/pricing/single',
+                    },
+                    {
+                        id   : 'pages.pricing.table',
+                        title: 'Table',
+                        type : 'basic',
+                        link : '/pages/pricing/table',
+                    },
+                ],
+            }
+            
+        ]
     }
 ];
 export const horizontalNavigation: FuseNavigationItem[] = [
@@ -86,10 +194,46 @@ export const horizontalNavigation: FuseNavigationItem[] = [
         link : '/academy'
     },
     {
-        id   : 'pricing',
-        title: 'Pricing',
-        type : 'basic',
-        icon : 'heroicons_outline:chart-pie',
-        link : '/pricing'
+        id      : 'pages',
+        title   : 'Pages',
+        subtitle: 'Custom made page designs',
+        type    : 'group',
+        icon    : 'heroicons_outline:document',
+        children: [
+
+            {
+                id      : 'pages.pricing',
+                title   : 'Pricing',
+                type    : 'collapsable',
+                icon    : 'heroicons_outline:banknotes',
+                children: [
+                    {
+                        id   : 'pages.pricing.modern',
+                        title: 'Modern',
+                        type : 'basic',
+                        link : '/pages/pricing/modern',
+                    },
+                    {
+                        id   : 'pages.pricing.simple',
+                        title: 'Simple',
+                        type : 'basic',
+                        link : '/pages/pricing/simple',
+                    },
+                    {
+                        id   : 'pages.pricing.single',
+                        title: 'Single',
+                        type : 'basic',
+                        link : '/pages/pricing/single',
+                    },
+                    {
+                        id   : 'pages.pricing.table',
+                        title: 'Table',
+                        type : 'basic',
+                        link : '/pages/pricing/table',
+                    },
+                ],
+            }
+            
+        ]
     }
 ];
